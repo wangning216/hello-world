@@ -3,7 +3,7 @@ version: 0.1
 phases:
   install:
     commands:
-      - pip install -t . -r requirements.txt
+      - echo Nothing to do in the pre_build phase...
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
