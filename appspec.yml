@@ -4,6 +4,6 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: "HelloWorld"
-        Alias: "default"
-        CurrentVersion: "1"
-        TargetVersion: "2"
+        Alias: "dev"
+        CurrentVersion: "CurrentAliasVersionGoesHere"
+        TargetVersion: "NewlyPublishedVersionGoesHere"
